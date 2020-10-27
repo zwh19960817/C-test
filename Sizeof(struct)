@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+struct student
+{
+    char gender;
+    short num[4];
+    char name;
+};
+
+int main(int argc, char const *argv[])
+{
+    student s;
+    cout<<sizeof(s)<<endl;
+    return 0;
+}
